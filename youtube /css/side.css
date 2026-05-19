@@ -1,0 +1,87 @@
+.hom{
+  margin-top: 10px;
+  margin-bottom: 0;
+  width:25px;
+}
+.exp{
+  margin-top: 10px;
+  margin-bottom: 0;
+  width:25px;
+}
+.sub{
+  margin-top: 10px;
+  margin-bottom: 0;
+  width:25px;
+}
+.ori{
+  margin-top: 10px;
+  margin-bottom: 0;
+  width:25px;
+}
+.yt-ms{
+  margin-top: 10px;
+  margin-bottom: 0;
+  width:25px;
+}
+.lib{
+  margin-top: 10px;
+  margin-bottom: 0;
+  width:25px;
+}
+
+.side{
+  display: flex;
+  flex-direction: column;
+}
+.s1{
+  width: 70px;
+  text-align: center;
+  cursor: pointer;
+}
+.s1:hover{
+  background-color: rgb(212, 212, 212);
+}
+.s2{
+  width: 70px;
+  text-align: center;
+  cursor: pointer;
+}
+.s2:hover{
+  background-color: rgb(212, 212, 212);
+}
+.s3{
+  width: 70px;
+  text-align: center;
+  cursor: pointer;
+}
+.s3:hover{
+  background-color: rgb(212, 212, 212);
+}
+.s4{
+  width: 70px;
+  text-align: center;
+  cursor: pointer;
+}
+.s4:hover{
+  background-color: rgb(212, 212, 212);
+}
+.s5{
+  width: 70px;
+  text-align: center;
+  cursor: pointer;
+}
+.s5:hover{
+  background-color: rgb(212, 212, 212);
+}
+.s6{
+  width: 70px;
+  text-align: center;
+  cursor: pointer;
+}
+.s6:hover{
+  background-color: rgb(212, 212, 212);
+}
+
+.t1, .t2, .t3, .t4, .t5, .t6{
+  font-size: 9px;
+}

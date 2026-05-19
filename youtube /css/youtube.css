@@ -1,0 +1,78 @@
+
+/* Comment */
+
+.videos-grid{
+  background-color: rgb(247, 247, 247);
+  border-top: 1px solid rgb(205, 205, 205);
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-left: 70px;
+}
+
+    .video-preview{
+      margin-right: 15px
+    }
+    .thumbnail{
+      width: 100%;
+    }
+    .channel-logo{
+      width: 35px;
+      border-radius: 50%;
+      padding: 10px;
+    }
+    .non-thumbnail-preview{
+      display: grid;
+      grid-template-columns: 60px 1fr;
+    }
+    a{
+      text-decoration: none;
+    }
+    .video-title{
+      color: black;
+      width: 100%;
+      font-weight: bold;
+      font-size: 13px;
+      line-height: 20px;
+    }
+    .channel-name{
+      font-size: 13px;
+      color:grey;
+      margin-top: 15px;
+      margin-bottom: 2px;
+    }
+    .views-time{
+      font-size: 13px;
+      color:grey;
+      margin-top: 2px;
+    }
+    .videos-grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 12px;
+      row-gap: 40px;
+    }
+    .img-div{
+      position: relative;
+    }
+    .time-stamp{
+      background-color: black;
+      font-size: 13px;
+      color: white;
+      position: absolute;
+      bottom:10px;
+      right: 8px;
+      margin-bottom: 0;
+      padding-left: 2px;
+      padding-right: 6px;
+    }
+    @media (max-width: 850px){
+      .videos-grid{
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    @media (min-width: 1200px){
+      .videos-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+    }
+    

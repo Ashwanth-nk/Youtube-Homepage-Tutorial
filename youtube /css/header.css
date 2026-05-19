@@ -1,0 +1,118 @@
+.header{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 55px;
+  z-index: 100;
+}
+.left-section{
+  width: 170px;
+  display: flex;
+  flex-direction: row;
+
+}
+.middle-section{
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.right-section{
+  width: 220px;
+  display: flex;
+  flex-direction: row;
+}
+.ham{
+  width: 25px;
+  margin-left: 23px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+.yt{
+  width: 90px;
+  cursor: pointer;
+}
+.up{
+  width: 25px;
+  margin: 15px;
+  cursor: pointer;
+}
+.app{
+  width: 25px;
+  margin: 15px;
+  cursor: pointer;
+}
+.not{
+  width: 25px;
+  margin: 15px;
+  cursor: pointer;
+}
+.my-ch{
+  width: 30px;
+  margin: 12px;
+  cursor: pointer;
+}
+.search-bar{
+  flex: 1;
+  border: 1px solid rgb(200, 200, 200);
+  width: 0;
+}
+.search-bar::placeholder{
+  font-family: Roboto;
+  padding: 10px;
+  font-size: 15px;
+}
+.search-bar::input{
+  padding: 10px;
+  font-size: 15px;
+}
+input[type="search"]:focus {
+    outline: none;
+    border: 1px solid rgb(0, 170, 255);
+}
+.sea{
+  width: 30px;
+  background-color: rgb(238, 238, 238);
+  padding: 10px;
+  border: 1px solid rgb(200, 200, 200);
+  border-left: none;
+  cursor: pointer;
+}
+.sea:hover{
+  background-color: rgb(230, 230, 230);
+}
+.voi{
+  padding: 7px;
+  margin-left: 10px;
+  background-color: rgb(239, 239, 239);
+  cursor: pointer;
+  border-radius: 50% 
+  
+}
+.tot-not{
+  position: relative;
+}
+.not-text{
+  color: white;
+  width: 18px;
+  background-color: rgb(202, 2, 2);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 7px;
+  left: 28px;
+  text-align: center;
+}
+
+input {
+  padding-left: 10px;
+  font-size: 16px;
+}

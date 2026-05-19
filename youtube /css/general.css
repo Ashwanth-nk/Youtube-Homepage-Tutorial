@@ -1,0 +1,15 @@
+p{
+  font-family: Roboto;
+}
+body {
+  margin: 0;
+}
+.down{
+  display: flex;
+  flex-direction: row;
+  margin-top: 55px;
+}
+.side{
+  background-color: white;
+  position: fixed;
+} 
